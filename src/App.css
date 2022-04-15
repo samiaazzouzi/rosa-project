@@ -1,0 +1,14 @@
+body{
+    background-color: #814a58;
+    background: #fcf7f3
+}
+
+.head {
+        background-color: #814a58;
+        background: #fcf7f3;
+        border: 0
+}
+.map-container {
+    height: 400px;
+}
+
