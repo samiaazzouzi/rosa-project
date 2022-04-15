@@ -47,7 +47,7 @@ const LeftComponent = () =>{
             <h2>Location and business hours</h2>
 
 
-            <div className="card" style={{ width: "40rem", borderLeft: "solid #0000FF", borderTop: "0", borderRight: "0", borderBottom: "0" }}>
+            <div className="card" style={{ width: "40rem", borderLeft: "0", borderTop: "0", borderRight: "0", borderBottom: "0" }}>
                 <div className="card-body">
                     <h5 className="card-title">Mon cabinet</h5>
                     <div className="card-text">

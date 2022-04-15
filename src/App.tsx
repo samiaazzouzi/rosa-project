@@ -4,7 +4,7 @@ import './App.css';
 import LeftComponent from './components/LeftComponent';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import mapboxgl from 'mapbox-gl';
-import Map from './components/Map';
+import MapComponent from './components/MapComponent';
 
 
 
@@ -23,7 +23,7 @@ function App() {
         <div className="row">
           <div className="col">
             <LeftComponent />
-            <Map />
+            <MapComponent />
           </div>
           <div className="col">
             right side
