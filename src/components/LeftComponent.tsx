@@ -11,11 +11,11 @@ const LeftComponent = () =>{
                         <h4 className="card-title">Samia Azzouzi</h4>
                         <div className="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                             <div className="btn-group" role="group" aria-label="first group">
-                                <a href="#" className="btn btn-outline-dark">Contact</a>
+                                    <a href="#contact" className="btn btn-outline-dark">Contact</a>
                             </div>
 
                             <div className="btn-group" role="group" aria-label="second group">
-                                <a href="#" style={{ marginLeft: "20px" }} className="btn btn-outline-dark">Location</a>
+                                <a href="#map" style={{ marginLeft: "20px" }} className="btn btn-outline-dark">Location</a>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const LeftComponent = () =>{
                     <div className="card-text">
                         Cantersteen 10, 1000 Brussels
                     </div>
-                    <h5 className="card-title">Contact details</h5>
+                    <h5 className="card-title" id="contact">Contact details</h5>
                     <ul style={{ listStyleType:"none"}}>
                         <li><a href="samiaazzouzi19@gmail.com">samiaazzouzi19@gmail.com</a></li>
                         <li><a href="+32466387854">+32466387854</a></li>

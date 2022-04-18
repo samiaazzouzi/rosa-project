@@ -1,14 +1,115 @@
-body{
+body {
     background-color: #814a58;
     background: #fcf7f3
 }
 
 .head {
-        background-color: #814a58;
-        background: #fcf7f3;
-        border: 0
+    background-color: #814a58;
+    background: #fcf7f3;
+    border: 0
 }
+
 .map-container {
     height: 400px;
+}
+
+.sidebar {
+    background-color: rgba(35, 55, 75, 0.9);
+    color: #fff;
+    padding: 6px 12px;
+    font-family: monospace;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    border-radius: 4px;
+}
+
+.center {
+    text-align: center;
+}
+
+.fixed {
+    position: fixed;
+    top: 20px;
+}
+
+.availability-scheduling__cell:active {
+    background: #60626f
+}
+
+.availability-scheduling__cell{
+    background: #d5cfe2;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    color: #371c69;
+    height: 32px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.direction-btn {
+    width: 100%;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer !important;
+    position: relative;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radio-btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d3cdca;
+
+
+}
+
+.container-label {
+    font-size: 1rem;
+    color: #181616;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+}
+
+
+h2 {
+    color: #814a58;
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    font-weight: 700;
+    margin: 10px;
+    padding: 0;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.appointment-btn{
+    padding: 8px 16px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    background-color: #814a58;
 }
 
