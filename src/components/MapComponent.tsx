@@ -26,7 +26,7 @@ function MapComponent () {
     });
     return (
         <div>
-            <div ref={mapContainer} className="map-container" />
+            <div id="map" ref={mapContainer} className="map-container" />
             <div className="card" style={{ width: "40rem", borderLeft: "0", borderTop: "0", borderRight: "0", borderBottom: "0" }}>
                 <div className="card-body">
                     <h5 className="card-title">Spoken Languages</h5>
